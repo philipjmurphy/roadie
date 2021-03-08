@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: issue-tracker
+  description: Track your tickets like a pro.
+  annotations:
+    github.com/project-slug: philipjmurphy/roadie
+    roadie.io/techdocs-ref: url:https://github.com/philipjmurphy/roadie
+    roadie.io/project-id: '1'
+spec:
+  type: website
+  owner: philipjmurphy@gmail.com
+  lifecycle: experimental
